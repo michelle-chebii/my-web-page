@@ -1,0 +1,89 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.jpg?s=1024x1024&w=is&k=20&c=E8l7Nf49aP7AjUVLvVGKKtNDroo1Q_x8DrUVw-KlqDc=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.logo {
+  height: 30px;
+  margin-left: 20px;
+}
+.companyname {
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 10px;
+}
+.headerdiv {
+  display: flex;
+  background-color: blue;
+  margin-top: 10px;
+  height: 40px;
+  align-items: center;
+}
+nav * {
+  display: inline;
+}
+.headerdiv a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.navlist {
+  margin: 15px;
+}
+main {
+  color: aliceblue;
+}
+.manywords {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.heading {
+  font-size: 60px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1;
+  margin-right: 15px;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAswMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QALhAAAgIBAwMCBQMFAQAAAAAAAAECEQMEITESQVEFExQVYZGhInGBMrHh8PFC/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APh4AMBDAKAAHQAIYBQAA6CgJoKKodAQBdCoCQKoKAkKKaEBIDABAMQAADAAAYAA0iqAlIqikh0BFD6TRRH0gZuIKJp0hQGfSPpNEh0Bk4i6TZoloDJoKLoTQENE0aUTQEAyqE0BIDABAMAENANAVFFpExLQDXA2thFgSkXQIdgJDopJsVMBUDQ0HIE0OkVQUBm0Q0bMhoDOhUWxUBDRLRbRLQECKolgAAAAilwSNMC4loiJpEBosSRWwDCh0MASHRNlJgLp3G4mkV1A4gZ1sLsa9KozcaAhiLaIa3ATJY2yLATExslgSJjACaAdgBICQwNIloziy0wNLGjNMpcgarcqtghVBOSAkGQpFJ2BpB0aXZjFSNVtyA7JdsuSpWYpuwJdkOW5pkMZADZNg2JgFktgSwCxNiBgACABWNEgBaZSkRY0BrFlWZx5NUkwLjLYmTsXALcCVydWGDaMIwfVvwduJbIAcWtivZfdlS2pl9fUtmBjyv2FFQYskJRZl+pNALNszCVnU43+5nlxNAckmFhKO4kgGJjE2AhMTZIFgQABQGqg/BSxN9mBikNI6I6dvsaR0rfZoDmiUpPsdcdFL6msdCBxxbfJrFLwdkfT5Srpiy/l86qmBxpvZVsdMEug3x6B32NZaCUY3X4A87LkfCQQcvHJ2x0Vu2mU9LX9KA4lKT/qF3t8HV7L8MFp23ugMYyUp7cCypy2a/k6XpnGeyFPDOW+/wBgPNyYr2XJhLFJb0eotNJ26f2InhfTTQHlUyZJno5NO12MJ4K7AcTEdDxPwS8dAYgX0DA7seK/B0RxRS3/ALnNCe50wyIDfFi87Hbi00XWxy486OiGoruB249LDuvwdePR4W94v7HnYtW1/wCjqhrkud742A9SGhxWqtGr0GPZSlJfQ82HqFPackuKNvjk6fVf1sD0IelYW/1ZODT5ViaX6+f2PLXqT6r8/hGsfVN1vcV2sDvfpGmlGutP6sn5LpFFSgrf1Ob5rTuO2/ZF/M0la5/gDRek4OGo+eOCcvpmFRaUV+5MfWEm01yKfqqrwBmvTcXLYsvpmNK1TJl6rF7WjLJ6lFp1LevCAiWhxx5Vdjjy6WFt7dK7lZc8XzKUmu7/AMGEtSo+PsBlPBDjk58mnj4Ru9WpR3+9GcsylugOSenj/qOfJgS/4dk8i8/g58kvIHL7a8AW5KwA5Is1jM50y0wOqOSi1mZyJj6gOtZ9zRalnApB1sD0Vqmivi2eb1vyHW/IHp/GPyD1kq5PNeQayAenHWPyU9Wzy/d8C91+QPU+LYnqpPa6PNWV+R+79QO/4hiefucHuD90Ds96T70hPLfdnG5p9w60B1vK0qvbwS8z80c/uClMDd5bRnKZk5kuYF9QGXUAGSKQAA7BsAAVjeyQAAWFiAAAAAVu0MAALHYAAAAAMVjAAthbAAAVgACAAA//2Q==);
+  padding: 5px;
+  margin-left: 10px;
+}
+.card-image {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.bottomwords {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 80px;
+}
+footer {
+  background-color: black;
+  color: antiquewhite;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
